@@ -13,7 +13,3 @@ Then, use docker to build the image from the Dockerfile.
 You will need to run the container using persistent storage using the `-v` switch and map a directory to a local directory:
 
 `docker run -i -v /path/to/docker/reports:/project/resource/reports container_name bash /project/resource/AppDCron.sh`
-
-## To Do
----
-- [ ] Add PowerShell script for running on windows servers as a scheduled task.
